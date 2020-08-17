@@ -23,7 +23,8 @@ remote_connection.send("description Link to LabSW5\n")
 remote_connection.send("end\n")
 
 for n in range (1,5):
-    # show interfaces Fa1/0/1 | include load
+    # Show txload and rxload of first 4 interfaces
+    # e.g. show interfaces Fa1/0/1 | include load
     remote_connection.send("show interfaces Fa1/0/" + str(n) + " | include load\n")
     time.sleep(0.5)
 
