@@ -1,0 +1,16 @@
+Successful connection 10.0.90.104
+
+LabSW4#configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW4(config)#interface Fa1/0/24
+LabSW4(config-if)#description Link to LabSW5
+LabSW4(config-if)#end
+LabSW4#show interfaces Fa1/0/1 | include load
+     reliability 255/255, txload 1/255, rxload 1/255
+LabSW4#show interfaces Fa1/0/2 | include load
+     reliability 255/255, txload 1/255, rxload 1/255
+LabSW4#show interfaces Fa1/0/3 | include load
+     reliability 255/255, txload 1/255, rxload 1/255
+LabSW4#show interfaces Fa1/0/4 | include load
+     reliability 255/255, txload 1/255, rxload 1/255
+LabSW4#
