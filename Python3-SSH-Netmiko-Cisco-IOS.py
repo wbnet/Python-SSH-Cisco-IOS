@@ -34,8 +34,8 @@ for devices in all_devices:
     output = net_connect.send_command('show version | include Model number')
     print(output)
     
-    # Add description to first 4 loopback interfaces
-    for n in range (1,5):
+    # Add description to first 2 loopback interfaces
+    for n in range (1,3):
         config_commands = ['interface loopback ' + str(n), 'description My loopback interface ' + str(n)]
         output = net_connect.send_config_set(config_commands)
         print(output)
