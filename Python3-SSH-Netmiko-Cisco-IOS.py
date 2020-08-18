@@ -1,3 +1,5 @@
+# Python3 SSH test using Netmiko
+
 from netmiko import ConnectHandler
 
 LabSW3 = {
@@ -28,9 +30,11 @@ all_devices = [LabSW3, LabSW4, LabSW5]
 for devices in all_devices:
     net_connect = ConnectHandler(**devices)
 
+    # Show model number of each switch
     output = net_connect.send_command('show version | include Model number')
     print(output)
-
+    
+    # Add description to first 4 loopback interfaces
     for n in range (1,5):
         config_commands = ['interface loopback ' + str(n), 'description My loopback interface ' + str(n)]
         output = net_connect.send_config_set(config_commands)
