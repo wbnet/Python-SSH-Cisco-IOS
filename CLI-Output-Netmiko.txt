@@ -1,0 +1,75 @@
+Model number                    : WS-C3750V2-48TS-S
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW3(config)#interface loopback 1
+LabSW3(config-if)#description My loopback interface 1
+LabSW3(config-if)#end
+LabSW3#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW3(config)#interface loopback 2
+LabSW3(config-if)#description My loopback interface 2
+LabSW3(config-if)#end
+LabSW3#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW3(config)#interface loopback 3
+LabSW3(config-if)#description My loopback interface 3
+LabSW3(config-if)#end
+LabSW3#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW3(config)#interface loopback 4
+LabSW3(config-if)#description My loopback interface 4
+LabSW3(config-if)#end
+LabSW3#
+Model number                    : WS-C3750V2-48PS-S
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW4(config)#interface loopback 1
+LabSW4(config-if)#description My loopback interface 1
+LabSW4(config-if)#end
+LabSW4#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW4(config)#interface loopback 2
+LabSW4(config-if)#description My loopback interface 2
+LabSW4(config-if)#end
+LabSW4#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW4(config)#interface loopback 3
+LabSW4(config-if)#description My loopback interface 3
+LabSW4(config-if)#end
+LabSW4#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW4(config)#interface loopback 4
+LabSW4(config-if)#description My loopback interface 4
+LabSW4(config-if)#end
+LabSW4#
+Model number                    : WS-C2960-24TT-L
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW5(config)#interface loopback 1
+LabSW5(config-if)#description My loopback interface 1
+LabSW5(config-if)#end
+LabSW5#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW5(config)#interface loopback 2
+LabSW5(config-if)#description My loopback interface 2
+LabSW5(config-if)#end
+LabSW5#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW5(config)#interface loopback 3
+LabSW5(config-if)#description My loopback interface 3
+LabSW5(config-if)#end
+LabSW5#
+configure terminal
+Enter configuration commands, one per line.  End with CNTL/Z.
+LabSW5(config)#interface loopback 4
+LabSW5(config-if)#description My loopback interface 4
+LabSW5(config-if)#end
+LabSW5#
